@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telecom Service Comparison</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <!--service plans-->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Plan A</h5>
+                        <p class="card-text">Price: $30/month</p>
+                        <p class="card-text">Data: 5GB</p>
+                        <p class="card-text">Call Minutes: Unlimited</p>
+                        <p class="card-text">Text Messages: 1000</p>
+                        <button class="btn btn-primary select-plan">Select</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-5">
+                    <div class="card-body">
+                        <h5 class="card-title">Plan B</h5>
+                        <p class="card-text">Price: $40/month</p>
+                        <p class="card-text">Data: 10GB</p>
+                        <p class="card-text">Call Minutes: Unlimited</p>
+                        <p class="card-text">Text Messages: 2000</p>
+                        <button class="btn btn-primary select-plan">Select</button>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Plan C</h5>
+                        <p class="card-text">Price: $50/month</p>
+                        <p class="card-text">Data: 15GB</p>
+                        <p class="card-text">Call Minutes: Unlimited</p>
+                        <p class="card-text">Text Messages: Unlimited</p>
+                        <button class="btn btn-primary select-plan">Select</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <button class="btn btn-primary" id="compare-button">Compare</button>
+                <h4>Selected Plans for Comparison:</h4>
+                <div id="comparison-container" class="row"></div>
+            </div>
+        </div>
+        
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
